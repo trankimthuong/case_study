@@ -1,0 +1,3 @@
+"thuongdeptrai","lamthon"
+"admin","admin"
+"hihi","hihi"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.controller.ClientController">
+   <children>
+      <TableView fx:id="table" prefHeight="500.0" prefWidth="400.0">
+        <columns>
+          <TableColumn fx:id="accNumberColumn" prefWidth="82.0" text="accNumber" />
+          <TableColumn fx:id="nameColumn" prefWidth="169.0" text="name" />
+            <TableColumn fx:id="balanceColumn" prefWidth="148.0" text="balance" />
+        </columns>
+      </TableView>
+      <Label layoutX="423.0" layoutY="40.0" text="accNumber" />
+      <Label layoutX="423.0" layoutY="85.0" text="name" />
+      <Label layoutX="423.0" layoutY="134.0" text="balance" />
+      <TextField fx:id="txtAccNumber" layoutX="499.0" layoutY="36.0" />
+      <TextField fx:id="txtName" layoutX="499.0" layoutY="81.0" />
+      <TextField fx:id="txtBalance" layoutX="499.0" layoutY="130.0" />
+      <Button layoutX="526.0" layoutY="225.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="55.0" text="ADD" />
+      <Button layoutX="526.0" layoutY="275.0" mnemonicParsing="false" text="DELETE" />
+   </children>
+</AnchorPane>
